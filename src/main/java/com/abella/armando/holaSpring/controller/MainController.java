@@ -38,7 +38,6 @@ public class MainController {
         String result;
         Double cosa;
         String salida="";
-        
         switch (operador) {
             case "s":
                 cosa=Double.parseDouble(op1)+Double.parseDouble(op2);
