@@ -32,7 +32,8 @@ public class MainController {
     @GetMapping("/calculator")
     @ResponseBody
     public String  calculator(@RequestParam("op1") String op1,
-    @RequestParam("op2") String op2, @RequestParam("operador") String operador)
+    @RequestParam("op2") String op2,
+    @RequestParam("operador") String operador)
         {
         String result;
         Double cosa;
